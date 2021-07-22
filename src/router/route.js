@@ -146,29 +146,6 @@ export const appRouter = [
     ]
   },
   {
-    path: '/Secondary',
-    name: 'Secondary',
-    title: '二清文件工具',
-    meta: {
-      requireAuth: true
-    },
-    component: Layout,
-    children: [
-      {
-        path: '/Secondary/SecondaryFile', 
-        title: '二清文件工具',
-        name: 'SecondaryFile',
-        component: () => import('src/pages/Secondary/SecondaryFile')
-      },
-      {
-        path: '/Secondary/secondaryInterface', 
-        title: '二清接口工具',
-        name: 'secondaryInterface',
-        component: () => import('src/pages/Secondary/secondaryInterface')
-      }
-    ]
-  },
-  {
     path: '/testUtils',
     name: 'testUtils',
     title: '测试工具',
