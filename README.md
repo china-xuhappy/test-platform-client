@@ -4,10 +4,8 @@
 =======
 
 接口自动化测试平台
+src/pages/interface
 
-地址：http://10.0.3.246/#/aotuTest/project
 
-
-基于vue 编写的后台管理
-
->>>>>>> e8adcd9 (init)
+UI自动化
+src/pages/ui
